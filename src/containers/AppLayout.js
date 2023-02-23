@@ -7,7 +7,9 @@ const AppLayout = () => {
   return (
     <>
       <Header />
-      <Outlet />
+      <div className='mt-[calc(96px+2rem)]'>
+        <Outlet />
+      </div>
       <Footer />
     </>
   )

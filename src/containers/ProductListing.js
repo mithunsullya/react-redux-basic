@@ -37,7 +37,7 @@ const ProductListing = () => {
   }
 
   return (
-    <div className='container mt-[calc(96px+2rem)]'>
+    <div className='container'>
       <div className='flex flex-wrap mb-12'>
         <div className='filters flex-[0_0_100%] flex flex-wrap justify-center items-center mb-8'>
           <div tabIndex={0} className='p-2 rounded-[10px] border mr-4 mb-4 cursor-pointer hover:text-red-800 font-bold focus:bg-red-800 focus:text-white' onClick={() => filterProducts('men\'s clothing')}>Men's Clothing</div>
